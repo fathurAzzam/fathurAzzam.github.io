@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin:0;
+    font-family: arial;
+    font-size: 17px;
+    color: darkred;
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image:url(img/logo.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+
+}
+
+#showcase p{
+    font-size: 20px;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: skyblue;
+    border: tan solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: #926239;
+    color: #ffffff ;
+}
+
+#section-a {
+    padding: 20px;
+    background: #926239;
+    color: #ffffff;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #926239;
+    color: #ffffff;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3 {
+    background: goldenrod;
+    color: white;
+}
+
+#section-c .box-2 {
+    background:goldenrod;
+    color: white; 
+}
+
+#link-a {
+    padding: 20px;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 0px 0px 48px;
+}
+
+.menu a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 0px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu .active {
+    color: #6699cb;
+}
+
+.menu a:hover {
+    color: #6699cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.fasilitas {
+    float: left;
+    padding: 20px;
+    background: #926239;
+    color: #ffffff;
+    text-align: center;
+}
+
+#menu .fasilitas {
+    float: right;
+    color: burlywood;
+    text-align: center;
+    padding: 0px 40px;
+}
+
